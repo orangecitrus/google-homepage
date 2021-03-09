@@ -1,44 +1,95 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <style>
-    img {
-      margin-left: auto;
-      margin-right: auto;
-      width: 30%;
-      display: block;
-    }
-    
-    button {
-      display: inline-block; 
-      text-align: center; 
-      justify-content: center;
-      margin: auto;
-    }
-    
-    .box{
-    width: 100%;
-    text-align: center;
+  <title> Google clone </title>
+   <style>
+     body {
+  margin: 0;
 }
 
+#nav {
+  display: flex; 
+  justify-content: flex-end; 
+  margin-top: 15px; 
  
+}
+
+#nav a {
+  margin-right: 20px; 
+}
+
+#middle {
+  margin-top: 40px; 
+  text-align: center; 
+}
+
+#searchbarcontainer {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+#searchbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 0; 
+  width: 500px; 
+  border-radius: 100px; 
+  border: 2px solid #c4c4c4
+}
+  
+#buttons {
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center; 
+}
+
+.button {
+  margin-left: 10px; 
+  margin-right: 10px; 
+  padding: 5px 10px; 
+  cursor: pointer; 
+  background: rgb(231, 231, 231);
+  border-radius: 3px; 
+}
+
+    
+    
   </style>
   
   <head>
     
     
+    
+    
+    
     <body>
+       <div id="nav">
+            <a class="top link">Gmail</a>
+            <a class="top link">Images</a>
+            <a class="top link">Sign-In</a> </div>      
       
-
-
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-       <br>
- </div>
-        <div class="box">
-             <input type="search" id="search" placeholder="Search" />
-        </div>     <br>
-      <button> Google Search </button><button> I'm feeling Lucky </button> 
-  
-  
+      <div id="middle">  
+       
+       <div id="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">  </div> 
+                
+      <div id="searchbarcontainer">
+        <input id="searchbar" type="text"> </div> 
+        
+        <div id="buttons">
+          <div class="button">Google Search</div> 
+          <div class="button">I'm Feeling Lucky</div> 
+        
+        
+     </div>
+      
+     </div> 
+       
+      
+        
+      
+        
+        
+        
     </body>
   
   
